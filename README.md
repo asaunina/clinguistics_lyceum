@@ -16,4 +16,7 @@
 | hello    | g88dbye  | wrong answer                                      |
 | hello    | привет   | Русское слово - привет; The English word is hello |
 | helлоу   | приvet   | wrong answer                                      |
- 
+  
+Код можно найти по этой [ссылке](https://github.com/asaunina/clinguistics/commit/2a223af4d5eaa9ba54394957deb8d8af4022d8ba) :point_right::point_left:
+
+![Хорошего настроения!](https://sun9-26.userapi.com/c855028/v855028059/9a934/ZKeZ9Rua94E.jpg)
