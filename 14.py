@@ -12,7 +12,7 @@ while True:
         else:
             if "a" <= a[i] <= "z" or "A" <= a[i] <= "Z":
                 true1 = true1 + 1
-            elif "à" <= a[i] <= "ÿ" or "À" <= a[i] <= "ß":
+            elif "Ã " <= a[i] <= "Ã¿" or "Ã€" <= a[i] <= "ÃŸ":
                 true2 = true2 + 1
     for i in range (len(b)):
         if "0" <= b[i] <= "9":
@@ -21,13 +21,13 @@ while True:
         else:
             if "a" <= b[i] <= "z" or "A" <= b[i] <= "Z":
                 true3 = true3 + 1
-            elif "à" <= b[i] <= "ÿ" or "À" <= b[i] <= "ß":
+            elif "Ã " <= b[i] <= "Ã¿" or "Ã€" <= b[i] <= "ÃŸ":
                 true4 = true4 + 1
     if true1 == len(a) and true4 == len(b):
-        print("Ðóññêîå ñëîâî -", b)
+        print("Ð ÑƒÑÑÐºÐ¾Ðµ ÑÐ»Ð¾Ð²Ð¾-", b)
         print("The English word is", a)
     elif true2 == len(a) and true3 == len(b):
-        print("Ðóññêîå ñëîâî -", a)
+        print("Ð ÑƒÑÑÐºÐ¾Ðµ ÑÐ»Ð¾Ð²Ð¾ -", a)
         print("The English word is", b)
     else:
         print("Wrong answer")
