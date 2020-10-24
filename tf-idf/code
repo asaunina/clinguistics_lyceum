@@ -19,7 +19,7 @@ def compute_tf(new1):
         
 k = len(open("new1.txt","r").read().split())
 print(compute_tf(new1), sep='\n')
-print("количество словоупотреблений в тексте -" ,k)
+print("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІРѕСѓРїРѕС‚СЂРµР±Р»РµРЅРёР№ РІ С‚РµРєСЃС‚Рµ -" ,k)
 
 
 
