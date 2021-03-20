@@ -11,7 +11,4 @@ with open('greedy.csv', newline='', encoding='utf8') as File:
             result = re.findall(r'(соленый огурец|солёный огурец|Соленый огурец|Солёный огурец)', line)
             if len(result)>0:
                 res = fuzz.ratio(line, 'Соленый огурец на полу валяется, никто его не ест')
-                print(res, line)
-                
-
-            
+                print(res, line)            
